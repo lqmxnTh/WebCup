@@ -26,7 +26,7 @@ function SignUp() {
     try {
       console.log(formData);
       const response = await axios.post(
-        `http://127.0.0.1:8000/signup`,
+        `${baseURL}/signup`,
         formData
       );
       console.log(response.data);
