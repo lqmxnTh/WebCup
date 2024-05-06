@@ -1,0 +1,15 @@
+.prodPriceIcon{
+    margin-top: 50px;
+}
+
+.prodPriceAndIcon{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.prodPrice{
+    font-family: 'Creepster';
+  }

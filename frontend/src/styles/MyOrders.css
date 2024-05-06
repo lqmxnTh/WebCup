@@ -1,0 +1,83 @@
+.my-orders {
+    margin: 20px;
+  }
+  
+  .my-orders-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .orders-container {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .order-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .order-id {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .order-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .order-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .order-total {
+    font-weight: bold;
+  }
+  
+  .order-status {
+    font-style: italic;
+    color: #555;
+    margin: 0;
+  }
+  
+  .order-items-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .order-items-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-items-table th,
+  .order-items-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .order-item p {
+    margin: 0;
+  }
+  

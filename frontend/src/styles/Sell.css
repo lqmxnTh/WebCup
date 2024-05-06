@@ -1,0 +1,50 @@
+.selling-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.selling-form-container{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.selling-form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+.sell-form-input{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    margin: 5px;
+  }
+  .categ-city{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .form-sell-button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+  }
+  .sell-here-text{
+    color: #FFFFFF;
+  }

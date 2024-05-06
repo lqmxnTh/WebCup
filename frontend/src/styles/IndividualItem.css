@@ -1,0 +1,93 @@
+.individual-prod {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    flex-direction: row;
+}
+
+.individual-prod-left {
+    width: 40%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.individual-prod-right {
+    height: 50%;
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: solid seashell;
+    color: aliceblue;
+}
+
+.variant-img {
+    width: 80%;
+}
+
+
+
+.btn-extra {
+    display: flex;
+    flex-direction: row;
+}
+
+.qty-btn-display {
+    display: flex;
+    align-items: center;
+}
+
+.plus-minus-btn {
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.qty-txt {
+    width: 25px;
+    height: 30px;
+    text-align: center;
+}
+
+.qty-btn-display button,
+.qty-txt {
+    margin: 0;
+}
+.add-to-cart-btn{
+    margin-left: 20px;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.display-variant-name{
+    font-weight: 400;
+}
+.display-variant-desc{
+    font-weight: 400;
+}
+.display-variant-price{
+    font-weight: 400;
+}
+
+.display-variant-stock{
+    font-weight: 400;
+    margin-left: 25px;
+}
+.sold-out{
+    color: red;
+}
+.price-stock-det{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}

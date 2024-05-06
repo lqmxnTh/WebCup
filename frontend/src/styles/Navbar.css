@@ -1,0 +1,134 @@
+ .navbar-container {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 100%;
+     height: 100px;
+     background-color: rgba(0, 0, 0, 0.5); 
+    color: aliceblue;
+   
+    z-index: 2;
+
+    font-family: 'Creepster';
+    font-size: 20px;
+ }
+
+
+.nav-options :only-child:hover{
+    color: #000;
+    text-shadow: 1px 1px 5px crimson;
+    transition: ease-in-out 0.5s;
+}
+
+ .container-logo{
+    text-shadow: 1px 1px 5px crimson;
+    font-family: 'Creepster';
+    color: #000;
+ }
+
+ .container-left {
+     display: flex;
+     align-items: center;
+     justify-content: left;
+     width: 30%;
+     height: 100%;
+ }
+
+ .container-logo {
+     width: 50%
+ }
+
+ .logo {
+     width: 100%;
+ }
+
+ .container-middle {
+     width: 40%;
+     height: 100%;
+     display: flex;
+ }
+
+ .list {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ ul {
+     width: 70%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     list-style: none;
+
+ }
+
+.nav-options a{
+     font-size: larger;
+     color: #fff;
+     text-decoration: none;
+ }
+
+ .container-right {
+     width: 20%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .cart-logo {
+     font-size: xx-large;
+     color: #fff;
+ }
+
+ .sign-in-btn {
+     padding: 10px;
+     border-radius: 10px;
+     background-color: transparent;
+     border-color: #fff;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ .sign-in-btn:hover {
+     background-color: transparent;
+     border-color: #000;
+     color: #000;
+     text-shadow: 1px 1px 5px crimson;
+    transition: ease-in-out 0.5s;
+    box-shadow: 1px 1px 5px crimson;;
+ }
+.wlcm-txt{
+color: white;
+}
+/* .sign-in-btn{
+    padding: 10px;
+} */
+.item-in-cart{
+    color: white;
+}
+.navbar-cart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add position relative */
+}
+
+.item-in-cart {
+    position: absolute; /* Add position absolute */
+    top: -30px; /* Adjust top position as needed */
+    left: 6px;
+    background-color: #ff0000; /* Add background color for better visibility */
+    border-radius: 50%; /* Make it a circle */
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller; /* Adjust font size as needed */
+    color: white;
+}
+
+

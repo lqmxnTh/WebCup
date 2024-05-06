@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+
+.home-panel {
+    height: 100vh; 
+    margin: 0;
+    background-color: #000;
+  }
+
+ 
+
+.home-panel-image-two, .home-panel-image-four{
+    width: 50vw;
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}   
+
+.home-panel-image-two{
+    background-image: url("https://www.momooze.com/wp-content/uploads/Enchanted-Forest-Party-Theme-Ideas-for-Kids-Birthday-woodland-party-sign-momooze.com-online-magazine-for-moms.jpg.webp");
+}
+
+.home-panel-image-four{
+    background-image: url("https://cdn.create.vista.com/api/media/small/409573060/stock-photo-occult-white-magic-ritual-fire-using-grimoire-old-book-candles");
+}
+
+
+
+#home-panel-two, #home-panel-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+#home-panel-four{
+    flex-direction: row-reverse;
+}
+
+
+.home-panel-text{
+    width: 50vw;
+    height: 100vh;
+    color: whitesmoke;
+    font-family: 'Creepster';
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-panel-text p{
+    width: 40vw;
+    
+}
+  
+#home-panel-one {
+  margin-top: -7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Creepster';
+  
+
+  background-image: url("https://33.media.tumblr.com/28fe099f90cc0e336665baf6dd1b6473/tumblr_nabl83XPqd1r4xsuho1_500.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+
+.home-panel-one-message{
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    height: 200px;
+    letter-spacing: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px crimson;
+}
+
+
+
+#home-panel-one h1{
+    margin-top: 5%;
+    font-size: 7em;
+    color: #000;
+}
+
+
+#home-panel-three {
+    display: flex;
+    flex-direction: row;
+  }
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #050505;
+    border-radius: 15px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .card:hover{
+    box-shadow: 0 0 8px rgba(255, 17, 17, 0.9)
+  }
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  .card h2{
+    color: white;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .card img {
+    border-radius: 10px;
+    height: 250px; /* Set the desired height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+  

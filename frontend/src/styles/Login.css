@@ -1,0 +1,88 @@
+body{
+    background-image: url('../assets/img/image.jpg');
+    
+}
+
+.page-container{
+    
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.form-container{
+    
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 2px solid #ccc; /* thicker border */
+    padding: 20px;
+    border-radius: 10px; /* rounder corners */
+    background-color: rgba(0, 0, 0, 0.6); /* Translucent black background */
+    color: white; /* Text color to contrast with the background */
+    width: 400px; /* Adjust width as needed */
+    margin: auto; /* Center the form */
+    
+}
+
+.form{
+    margin: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.txt-box{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+}
+.label-container{
+    width: 101%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+.forgot-password,
+.no-account {
+    color: white; /* Sets the text color to white */
+    text-decoration: underline; /* Adds underline to the text */
+}
+.label{
+    float: left;
+}
+.submit-btn-conatiner{
+    width: 103%;
+}
+.submit-btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 15px;
+    color: #ccc;
+    outline: none;
+    border: none;
+}
+.no-account{
+    margin-top: 20px;
+}
+/*
+header{
+    display: none;
+}
+.footer {
+    display: none;
+}
+*/
